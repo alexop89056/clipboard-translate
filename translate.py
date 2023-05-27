@@ -4,6 +4,7 @@ from time import sleep
 import keyboard
 import pyautogui as pg
 from infi.systray import SysTrayIcon
+import os
 
 
 translate_button = "f8"
@@ -35,7 +36,6 @@ def change_translate_button(systray):
 
 
 def exit(systray):
-    import os
     os._exit(0)
 
 
